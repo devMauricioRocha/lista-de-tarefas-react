@@ -1,0 +1,87 @@
+td {
+    padding: 3px;
+    color: #333;
+    font-weight: 600;
+
+}
+
+td:first-child {
+    font-family: "Playwrite TZ", cursive;
+}
+
+tr:nth-child(even) {
+    background-color: #ffffff;
+}
+
+select {
+    width: 100%;
+    border: none;
+    padding: 10px;
+    border-radius: 2px;
+    font-weight: 600;
+    text-transform: capitalize;
+    outline: none;
+    cursor: pointer;
+
+}
+
+select:hover {
+    opacity: 0.7;
+
+}
+
+select option {
+    background-color: #ebebeb;
+}
+
+.botoes-acoes {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 5px;
+}
+
+.botoes-acoes button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 27px;
+    cursor: pointer;
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 2px;
+    color: white;
+    padding: 4px;
+}
+
+button:hover {
+    opacity: 0.6;
+}
+
+#btnSalvar {
+    background-color: #28A745;
+}
+
+#btnExcluir {
+    background-color: #DC3545;
+}
+
+#btnEditar {
+    background-color: #007bff;
+}
+
+#btnCancelar {
+    background-color: #6C757D;
+}
+
+.ocultar {
+    display: none;
+}
+
+.task-exit {
+    transition: opacity 0.5s ease, height 0.5s ease, padding 0.5s ease, margin 0.5s ease;
+    opacity: 0;
+    height: 0;
+    padding: 0;
+    margin: 0;
+}

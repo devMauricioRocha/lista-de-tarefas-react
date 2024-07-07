@@ -1,0 +1,42 @@
+table {
+    border-collapse: collapse;
+    width: 100%;
+    table-layout: fixed;
+}
+
+thead {
+    background-color: #007BFF;
+    color: white;
+}
+
+thead th:nth-child(1) {
+    width: 376px;
+}
+
+thead th:nth-child(2) {
+    width: 245px;
+}
+
+thead th:nth-child(3) {
+    width: 150px;
+}
+
+thead th:nth-child(4) {
+    width: 116px;
+}
+
+td,
+th {
+    padding: 10px 15px;
+    border: 1px solid #909090;
+    text-align: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    /* Impede a quebra de linha */
+}
+
+h2,
+table {
+    clear: both;
+}

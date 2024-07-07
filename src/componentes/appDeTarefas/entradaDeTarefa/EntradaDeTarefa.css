@@ -1,0 +1,29 @@
+#addTarefa {
+    margin: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+
+}
+
+#inputAddTarefa {
+    width: 100%;
+    font-size: 15px;
+    padding: 9px;
+    outline: none;
+}
+
+#btnAddTarefa {
+    padding: 10px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+    font-weight: 900;
+    border: none;
+    border-radius: 2px;
+}
+
+#btnAddTarefa:hover {
+    background-color: #0970df;
+}
