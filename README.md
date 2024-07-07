@@ -18,7 +18,7 @@ Este é um simples aplicativo de lista de tarefas desenvolvido em React, onde os
 
 ## Estrutura do Projeto
 
-- `public/`: Contém o arquivo `icon-tarefa.png` e o arquivo `index.html`.
+- `public/`: Contém o arquivo `icon-tarefa.ico` e o arquivo `index.html`.
 - `src/`: Contém o código fonte do projeto.
   - `AppDeTarefas.js`: Componente principal que gerencia o estado das tarefas e renderiza a interface.
   - `entradaDeTarefa/`: Componente para a entrada de novas tarefas.
