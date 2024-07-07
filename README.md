@@ -1,3 +1,4 @@
+![Logo do projeto](https://github.com/devMauricioRocha/lista-de-tarefas-react/blob/main/src/assets/Lista-De-Tarefas.PNG)
 # Aplicativo de Lista de Tarefas em React
 
 Este é um simples aplicativo de lista de tarefas desenvolvido em React, onde os usuários podem adicionar, editar, filtrar e excluir tarefas. As tarefas são salvas localmente no navegador utilizando o localStorage.
